@@ -61,7 +61,7 @@ Runs on free Colab T4. No paid tier needed.
 
 ---
 
-## What's next
+## Upcoming upgrades
 
 - Replace FFN blocks in a small transformer with MoE layers
 - Load and inspect routing in Mixtral 8x7B
