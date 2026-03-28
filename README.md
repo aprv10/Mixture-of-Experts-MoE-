@@ -23,17 +23,14 @@ Only top-k experts activate per input — more parameters, same compute.
 ## Structure
 
 ```
-moe-from-scratch/
-├── moe_toy.py       # 2D synthetic data, routing map visualization
-├── moe_mnist.py     # MNIST, expert-digit heatmap
+Mixture-of-Experts-MoE-/
+├── moe.py     
 └── README.md
 ```
 
 ---
 
 ## Results
-
-**Toy dataset** — ~98% accuracy. Experts visibly carve up 2D input space.
 
 **MNIST** — ~97% accuracy in 20 epochs on a free Colab T4.
 
